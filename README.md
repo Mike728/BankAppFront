@@ -1,21 +1,22 @@
-# mdbvue
+# BankApp
 
-> Vue Bootstrap with Material Design
+> Frontend aplikacji. Wymaga zainstalowanego [node.js](https://nodejs.org/en/) (środowisko uruchomieniowe) oraz [yarn](https://yarnpkg.com/lang/en/) (pakiet manager dla JavaScript).
+Użyte technologie:
+> - VueJS (https://vuejs.org/)
+> - Material Design Bootstrap (https://mdbootstrap.com/docs/vue/)
+> - axios (https://github.com/axios/axios)
+> - JavaScipt
+> - CSS
 
-## Build Setup
+## Uruchomienie
 
 ``` bash
-# install dependencies
-npm install
+# pobranie projektu
+git clone https://github.com/Mike728/BankAppFront.git
 
-# serve with hot reload at localhost:8080
-npm run dev
+# instalacja zależności
+yarn
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# start aplikacji na localhost:8080
+yarn run dev
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
